@@ -17,11 +17,11 @@ You must sign the application yourself. (This is because don't have a paid Apple
 
 (note: screenshots were taken from a [different project](https://github.com/mattdanielmurphy/open-in-music), but the concept is identical)
 
-1. [Download](https://github.com/mattdanielmurphy/undo-video-seek/releases/download/v0.1/Undo-Video-Seek.zip) the release.
+1. [Download the project](http://github.com/mattdanielmurphy/undo-video-seek/releases/latest/download/Undo-Video-Seek.zip).
 2. Open `Undo Video Seek.xcodeproj` in Xcode.
 3. Sign the app to run locally:
    1. Select the project in the navigator.
-   2. Click the first target, `Open in Music`.
+   2. Click the first target, `Undo Video Seek`.
    3. Click the `Signing & Capabilities` tab.
    4. Change `Team` to your account.
    5. Repeat the previous step for the second target, `Undo Video Seek Extension`.
