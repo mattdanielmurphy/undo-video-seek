@@ -1,4 +1,4 @@
-# Open in Music
+# Undo Video Seek
 
 A Safari extension that allows you to *undo* a video seek. The reason why I wanted this is that every once in a while I'll accidentally hit one of the number keys while watching a YouTube video, causing the video to seek and **lose my playback position**. It's *always* annoying, *especially* on a long video (like a podcast). So I whipped up this simple Safari extension to solve the problem.
 
