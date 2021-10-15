@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9B1437B2719262E0044F143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1437A2719262E0044F143 /* AppDelegate.swift */; };
+		C9B1437F2719262E0044F143 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C9B1437D2719262E0044F143 /* Main.html */; };
+		C9B143812719262F0044F143 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B143802719262E0044F143 /* Icon.png */; };
+		C9B143832719262F0044F143 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C9B143822719262F0044F143 /* Style.css */; };
+		C9B143852719262F0044F143 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C9B143842719262F0044F143 /* Script.js */; };
+		C9B143872719262F0044F143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B143862719262F0044F143 /* ViewController.swift */; };
+		C9B1438A2719262F0044F143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B143882719262F0044F143 /* Main.storyboard */; };
+		C9B1438C2719262F0044F143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B1438B2719262F0044F143 /* Assets.xcassets */; };
+		C9B143932719262F0044F143 /* Undo Video Seek Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9B143922719262F0044F143 /* Undo Video Seek Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9B143982719262F0044F143 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B143972719262F0044F143 /* SafariWebExtensionHandler.swift */; };
+		C9B1439B2719262F0044F143 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C9B1439A2719262F0044F143 /* _locales */; };
+		C9B1439D2719262F0044F143 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C9B1439C2719262F0044F143 /* images */; };
+		C9B1439F2719262F0044F143 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C9B1439E2719262F0044F143 /* manifest.json */; };
+		C9B143A12719262F0044F143 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C9B143A02719262F0044F143 /* background.js */; };
+		C9B143A32719262F0044F143 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C9B143A22719262F0044F143 /* content.js */; };
+		C9B143A52719262F0044F143 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C9B143A42719262F0044F143 /* popup.html */; };
+		C9B143A72719262F0044F143 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C9B143A62719262F0044F143 /* popup.css */; };
+		C9B143A92719262F0044F143 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C9B143A82719262F0044F143 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9B143942719262F0044F143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B1436F2719262E0044F143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B143912719262F0044F143;
+			remoteInfo = "Undo Video Seek Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9B143B02719262F0044F143 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C9B143932719262F0044F143 /* Undo Video Seek Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9B143772719262E0044F143 /* Undo Video Seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Undo Video Seek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B1437A2719262E0044F143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9B1437E2719262E0044F143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C9B143802719262E0044F143 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C9B143822719262F0044F143 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C9B143842719262F0044F143 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C9B143862719262F0044F143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9B143892719262F0044F143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9B1438B2719262F0044F143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9B1438D2719262F0044F143 /* Undo Video Seek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Undo Video Seek.entitlements"; sourceTree = "<group>"; };
+		C9B143922719262F0044F143 /* Undo Video Seek Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Undo Video Seek Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B143972719262F0044F143 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C9B1439A2719262F0044F143 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		C9B1439C2719262F0044F143 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C9B1439E2719262F0044F143 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C9B143A02719262F0044F143 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		C9B143A22719262F0044F143 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		C9B143A42719262F0044F143 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		C9B143A62719262F0044F143 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		C9B143A82719262F0044F143 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		C9B143AA2719262F0044F143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B143742719262E0044F143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1438F2719262F0044F143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B1436E2719262E0044F143 = {
+			isa = PBXGroup;
+			children = (
+				C9B143792719262E0044F143 /* Undo Video Seek */,
+				C9B143962719262F0044F143 /* Undo Video Seek Extension */,
+				C9B143782719262E0044F143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B143782719262E0044F143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B143772719262E0044F143 /* Undo Video Seek.app */,
+				C9B143922719262F0044F143 /* Undo Video Seek Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B143792719262E0044F143 /* Undo Video Seek */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1437A2719262E0044F143 /* AppDelegate.swift */,
+				C9B143862719262F0044F143 /* ViewController.swift */,
+				C9B143882719262F0044F143 /* Main.storyboard */,
+				C9B1438B2719262F0044F143 /* Assets.xcassets */,
+				C9B1438D2719262F0044F143 /* Undo Video Seek.entitlements */,
+				C9B1437C2719262E0044F143 /* Resources */,
+			);
+			path = "Undo Video Seek";
+			sourceTree = "<group>";
+		};
+		C9B1437C2719262E0044F143 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1437D2719262E0044F143 /* Main.html */,
+				C9B143802719262E0044F143 /* Icon.png */,
+				C9B143822719262F0044F143 /* Style.css */,
+				C9B143842719262F0044F143 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9B143962719262F0044F143 /* Undo Video Seek Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9B143972719262F0044F143 /* SafariWebExtensionHandler.swift */,
+				C9B143AA2719262F0044F143 /* Info.plist */,
+				C9B143992719262F0044F143 /* Resources */,
+			);
+			path = "Undo Video Seek Extension";
+			sourceTree = "<group>";
+		};
+		C9B143992719262F0044F143 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1439A2719262F0044F143 /* _locales */,
+				C9B1439C2719262F0044F143 /* images */,
+				C9B1439E2719262F0044F143 /* manifest.json */,
+				C9B143A02719262F0044F143 /* background.js */,
+				C9B143A22719262F0044F143 /* content.js */,
+				C9B143A42719262F0044F143 /* popup.html */,
+				C9B143A62719262F0044F143 /* popup.css */,
+				C9B143A82719262F0044F143 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B143762719262E0044F143 /* Undo Video Seek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B143B12719262F0044F143 /* Build configuration list for PBXNativeTarget "Undo Video Seek" */;
+			buildPhases = (
+				C9B143732719262E0044F143 /* Sources */,
+				C9B143742719262E0044F143 /* Frameworks */,
+				C9B143752719262E0044F143 /* Resources */,
+				C9B143B02719262F0044F143 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B143952719262F0044F143 /* PBXTargetDependency */,
+			);
+			name = "Undo Video Seek";
+			productName = "Undo Video Seek";
+			productReference = C9B143772719262E0044F143 /* Undo Video Seek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9B143912719262F0044F143 /* Undo Video Seek Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B143AD2719262F0044F143 /* Build configuration list for PBXNativeTarget "Undo Video Seek Extension" */;
+			buildPhases = (
+				C9B1438E2719262F0044F143 /* Sources */,
+				C9B1438F2719262F0044F143 /* Frameworks */,
+				C9B143902719262F0044F143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Undo Video Seek Extension";
+			productName = "Undo Video Seek Extension";
+			productReference = C9B143922719262F0044F143 /* Undo Video Seek Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B1436F2719262E0044F143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C9B143762719262E0044F143 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C9B143912719262F0044F143 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = C9B143722719262E0044F143 /* Build configuration list for PBXProject "Undo Video Seek" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9B1436E2719262E0044F143;
+			productRefGroup = C9B143782719262E0044F143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B143762719262E0044F143 /* Undo Video Seek */,
+				C9B143912719262F0044F143 /* Undo Video Seek Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B143752719262E0044F143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B143812719262F0044F143 /* Icon.png in Resources */,
+				C9B1438A2719262F0044F143 /* Main.storyboard in Resources */,
+				C9B143852719262F0044F143 /* Script.js in Resources */,
+				C9B1437F2719262E0044F143 /* Main.html in Resources */,
+				C9B1438C2719262F0044F143 /* Assets.xcassets in Resources */,
+				C9B143832719262F0044F143 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B143902719262F0044F143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B143A12719262F0044F143 /* background.js in Resources */,
+				C9B143A72719262F0044F143 /* popup.css in Resources */,
+				C9B143A52719262F0044F143 /* popup.html in Resources */,
+				C9B1439D2719262F0044F143 /* images in Resources */,
+				C9B1439F2719262F0044F143 /* manifest.json in Resources */,
+				C9B1439B2719262F0044F143 /* _locales in Resources */,
+				C9B143A32719262F0044F143 /* content.js in Resources */,
+				C9B143A92719262F0044F143 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B143732719262E0044F143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B143872719262F0044F143 /* ViewController.swift in Sources */,
+				C9B1437B2719262E0044F143 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B1438E2719262F0044F143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B143982719262F0044F143 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9B143952719262F0044F143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B143912719262F0044F143 /* Undo Video Seek Extension */;
+			targetProxy = C9B143942719262F0044F143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9B1437D2719262E0044F143 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B1437E2719262E0044F143 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C9B143882719262F0044F143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B143892719262F0044F143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B143AB2719262F0044F143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9B143AC2719262F0044F143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C9B143AE2719262F0044F143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457ZKWNUB2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Undo Video Seek Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Undo Video Seek Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewmurphy.Undo-Video-Seek.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C9B143AF2719262F0044F143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457ZKWNUB2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Undo Video Seek Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Undo Video Seek Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewmurphy.Undo-Video-Seek.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C9B143B22719262F0044F143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Undo Video Seek/Undo Video Seek.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457ZKWNUB2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Undo Video Seek";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewmurphy.Undo-Video-Seek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C9B143B32719262F0044F143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Undo Video Seek/Undo Video Seek.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 457ZKWNUB2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Undo Video Seek";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewmurphy.Undo-Video-Seek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B143722719262E0044F143 /* Build configuration list for PBXProject "Undo Video Seek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B143AB2719262F0044F143 /* Debug */,
+				C9B143AC2719262F0044F143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B143AD2719262F0044F143 /* Build configuration list for PBXNativeTarget "Undo Video Seek Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B143AE2719262F0044F143 /* Debug */,
+				C9B143AF2719262F0044F143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B143B12719262F0044F143 /* Build configuration list for PBXNativeTarget "Undo Video Seek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B143B22719262F0044F143 /* Debug */,
+				C9B143B32719262F0044F143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B1436F2719262E0044F143 /* Project object */;
+}
